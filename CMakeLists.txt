@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.16)
+project(AoC_2022 C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(day_1 day_1/solve.c misc/utils.c misc/utils.h)
+add_executable(day_2 day_2/solve.c misc/utils.c misc/utils.h)
+add_executable(day_3 day_3/solve.c misc/utils.c misc/utils.h)
+add_executable(day_4 day_4/solve.c misc/utils.c misc/utils.h)
+add_executable(day_5 day_5/solve.c misc/utils.c misc/utils.h)
+add_executable(day_6 day_6/solve.c misc/utils.c misc/utils.h)
+add_executable(day_7 day_7/solve.c misc/utils.c misc/utils.h)
+add_executable(day_8 day_8/solve.c misc/utils.c misc/utils.h)
+add_executable(day_9 day_9/solve.c misc/utils.c misc/utils.h)
+add_executable(day_10 day_10/solve.c misc/utils.c misc/utils.h)
+add_executable(day_11 day_11/solve.c misc/utils.c misc/utils.h)
